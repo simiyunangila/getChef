@@ -24,7 +24,8 @@
         android:layout_marginTop="58dp"
         android:drawableLeft="@drawable/search"
         android:hint="What are you looking for..?"
-        android:textSize="32sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

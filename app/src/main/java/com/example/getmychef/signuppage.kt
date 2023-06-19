@@ -20,7 +20,7 @@ class signuppage : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         binding.btnlogin.setOnClickListener {
-            val y = Intent(this,signuppage::class.java)
+            val y = Intent(this,chefdisplay::class.java)
             startActivity(y)
             validateSignUpPage()
             clearErrors()
